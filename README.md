@@ -9,10 +9,10 @@
 
 <h2>📌 Project Description</h2>
 <p>
-This project is a <strong>static website</strong> developed using
+This project is a <strong>Dynamic website</strong> developed using
 <strong>HTML5</strong> and <strong>CSS3</strong>.
-The website features a clean design, responsive layout,
-and simple structure. It is hosted using <strong>GitHub Pages</strong>.
+The website features a 3D Smart design, responsive layout,
+and simple structure. It is hosted using <strong>GitHub and AWS Pages</strong>.
 </p>
 
 <h2>🚀 Live Demo</h2>
