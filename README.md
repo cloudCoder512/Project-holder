@@ -114,7 +114,7 @@ Project Root
 <h2>🌍 Hosting</h2>
 <p>
 This website is deployed using <strong>GitHub Pages</strong>,
-which provides free and reliable hosting for static websites.
+which provides free and reliable hosting for static and Dynamic websites.
 </p>
 
 <h2>🔮 Future Improvements</h2>
@@ -126,7 +126,8 @@ which provides free and reliable hosting for static websites.
 
 <h2>👤 Author</h2>
 <p>
-<strong>Your Name</strong><br>
+<strong>Adarsh Varma</strong><br>
+    <strong>Email: adarshverma912098@gmail.com</strong><br>
 GitHub:
 <a href="https://github.com/cloudCoder512" target="_blank">
 https://github.com/cloudCoder512
