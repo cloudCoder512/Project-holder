@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>HTML & CSS Website</title>
 </head>
 <body>
 
-<h1>🌐 HTML & CSS Website</h1>
+<h1>🌐 Project Holder Application</h1>
 
 <h2>📌 Project Description</h2>
 <p>
@@ -27,6 +26,14 @@ https://cloudCoder512.github.io/Project-holder/
 <ul>
     <li>HTML5</li>
     <li>CSS3</li>
+    <li>Javascript</li>
+    <li>MongoDB</li>
+    <li>Email.js</li>
+    <li>Google</li>
+    <li>C++</li>
+    <li>API</li>
+    <li>DevOps</li>
+    <li>MySQL</li>
     <li>GitHub Pages</li>
 </ul>
 
