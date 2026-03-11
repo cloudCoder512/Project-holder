@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=0.5">
+    <title>project cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/logo/logo.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo/logo.svg">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="../style/3Dash49.css">
+</head>
+<body>
+    <div class="bg-animation"></div>
+    <div class="grid-bg"></div>
+    <div class="particles" id="particles"></div>
+    <nav class="navbar">
+        <div class="logo">
+            <div class="logo-icon">
+                <img src="../img/logo/logo.svg">
+            </div>
+            <span>Project cart</span>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="../contact/Contact.html">Contact</a></li>
+            <li><a href="../contact/Support.html">Support|Halp Center</a></li>
+            <li><a href="https://forms.visme.co/formsPlayer/dwokpvv1-real-estate-client-registration-form-template" target="_blank" class="btn btn-primary">Hire Me</a></li>
+        </ul>
+    </nav>
+    <div class="overlay" id="overlay"></div>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text animate-slide">
+                    <h1>
+                        Crafting <span class="highlight">Digital</span><br>
+                        Experiences That <span class="highlight">Inspire</span>
+                    </h1>
+                    <p>
+                        I transform complex problems into elegant solutions through code. 
+                        Specializing in modern web technologies and innovative design approaches.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> View Projects
+                        </a>
+                        <a href="../contact/Contact.html" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Contact Me
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Satisfaction</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Support</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card">
+                        <h3><i class="fas fa-bolt"></i> Fast & Efficient</h3>
+                        <p>Optimized solutions for maximum performance</p>
+                    </div>
+                    <div class="floating-card">
+                        <h3><i class="fas fa-shield-alt"></i> Secure & Reliable</h3>
+                        <p>Enterprise-grade security standards</p>
+                    </div>
+                    <div class="floating-card">
+                        <h3><i class="fas fa-magic"></i> Modern Design</h3>
+                        <p>Cutting-edge UI/UX design principles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <div class="section-title animate-slide">
+                <h2>About Me</h2>
+                <p>Discover my journey, skills, and what drives my passion for technology</p>
+            </div>
+            <div class="about-content">
+                <div class="about-visual animate-slide">
+                <img src="../img/folder-icon.png" alt="Adarsh Varma" class="about-image" style="width: 100%; height: 100%; object-fit: cover; border-radius: 30px; display: block;">
+                </div>
+                <div class="about-text animate-slide">
+                    <h3 style="font-size: clamp(1.5rem, 4vw, 2rem); margin-bottom: 1.5rem; background: var(--gradient); -webkit-background-clip: text; background-clip: text; color: transparent;">
+                        Full Stack Developer & Tech Innovator
+                    </h3>
+                    <p style="margin-bottom: 2rem; color: #a0a0c0; line-height: 1.6;">
+                        With over 2 years of experience in the tech industry, I specialize in creating 
+                        cutting-edge web applications that combine functionality with stunning visual design. 
+                        My expertise spans across frontend and backend technologies, with a particular 
+                        focus on modern JavaScript frameworks and cloud architecture.
+                    </p>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Frontend Development</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">Backend Development</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">UI/UX Design</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span class="skill-name">DevOps</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary" style="margin-top: 2rem; display: inline-block;">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <div class="section-title animate-slide">
+                <h2>Featured Projects</h2>
+                <p>A showcase of my recent work and innovative solutions</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card animate-slide">
+                    <div class="project-image">
+                        <img src="../img/porthfolio-img.png" alt="Portfolio Website" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Modern Portfolio Platform</h3>
+                        <p>
+                            A responsive portfolio website with interactive animations and smooth transitions.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">GSAP</span>
+                        </div>
+                        <a href="https://cloudCoder512.github.io/Adarsh-RESUME/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card animate-slide">
+                    <div class="project-image">
+                        <img src="../img/cornflax-img.png" alt="Official Website" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>CornFlax Corporate Site</h3>
+                        <p>
+                            Official corporate website featuring 3D elements and interactive WebGL components.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Three.js</span>
+                            <span class="tech-tag">WebGL</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                        <a href="https://cloudCoder512.github.io/CornFlax/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card animate-slide">
+                    <div class="project-image">
+                        <img src="../img/Typing-master-img.jpg" alt="Typing Master" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Typing Master Pro</h3>
+                        <p>
+                            Advanced typing practice platform with gamified learning and progress tracking.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                        <a href="https://cloudCoder512.github.io/Typing-Expert/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card animate-slide">
+                    <div class="project-image">
+                        <img src="https://static.wixstatic.com/media/bac040_594435869f7b44ff96b840309eee6fb3~mv2.png" alt="Microsoft Activation" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Microsoft Activation Toolkit</h3>
+                        <p>
+                            Open-source automation toolkit for Microsoft product activation and management.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Shell Script</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                        <a href="https://cloudCoder512.github.io/Microsoft-Activation-Scripts/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card animate-slide">
+                    <div class="project-image">
+                        <img src="../img/rioce-image.png" alt="Education Platform" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>Rioce Education Platform</h3>
+                        <p>
+                            Complete education management system with payment integration and student portal.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Payment API</span>
+                        </div>
+                        <a href="https://riocecomputer.github.io/Rioce-Computer/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card animate-slide">
+                    <div class="project-image">
+                        <img src="../img/3Dweb-img.png" alt="3D Website" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>3D Interactive Experience</h3>
+                        <p>
+                            Immersive 3D web experience combining information architecture with visual storytelling.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Three.js</span>
+                            <span class="tech-tag">WebGL</span>
+                            <span class="tech-tag">GLSL</span>
+                            <span class="tech-tag">Animation</span>
+                        </div>
+                        <a href="https://my-project512.github.io/get-info-512/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card animate-slide">
+                    <div class="project-image">
+                        <img src="../img/CyberActivator.png" alt="3D Website" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>CyberActivator-Pro</h3>
+                        <p>
+                            CyberActivator Pro is the most advanced Windows activation tool. Experience seamless activation with enterprise-grade security and speed.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">WebGL</span>
+                            <span class="tech-tag">GLSL</span>
+                            <span class="tech-tag">Animation</span>
+                        </div>
+                        <a href="https://cloudcoder512.github.io/CyberActivator-Pro/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div> 
+                <div class="project-card animate-slide">
+                    <div class="project-image">
+                        <img src="../img/ishit-image.png" alt="3D Website" loading="lazy">
+                    </div>
+                    <div class="project-content">
+                        <h3>CyberActivator-Pro</h3>
+                        <p>
+                            CyberActivator Pro is the most advanced Windows activation tool. Experience seamless activation with enterprise-grade security and speed.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">WebGL</span>
+                            <span class="tech-tag">GLSL</span>
+                            <span class="tech-tag">Animation</span>
+                        </div>
+                        <a href="https://cloudcoder512.github.io/CyberActivator-Pro/" target="_blank" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> Live Demo
+                        </a>
+                    </div>
+                </div>     
+
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-user"></i> About Adarsh</h3>
+                    <p>
+                        Full Stack Developer with 2+ years of experience creating innovative web solutions. 
+                        Passionate about modern technologies and delivering exceptional user experiences.
+                    </p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3><i class="fas fa-link"></i> Quick Links</h3>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="../contact/Contact.htmll"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        <li><a href="Support.html"><i class="fas fa-chevron-right"></i> Support Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3><i class="fas fa-cog"></i> Services</h3>
+                    <ul>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Web Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> UI/UX Design</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Mobile Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Cloud Solutions</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> DevOps Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3><i class="fas fa-envelope"></i> Stay Connected</h3>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Lucknow UP</span>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>9120984672</span>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>adarshverma912098@gmail.com</span>
+                        </div>
+                    </div>
+                    <form class="newsletter-form" onsubmit="event.preventDefault();">
+                        <input type="email" class="newsletter-input" placeholder="Your email" required>
+                        <button type="submit" class="newsletter-btn">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>  
+                    <p style="margin-top: 1rem; font-size: 0.8rem;">
+                        <i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 6:00 PM
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Adarsh Varma. All Rights Reserved. | Designed</i> by Adarsh</p>
+            </div>
+        </div>
+    </footer>
+<script src="../script/3script49.js" defer></script>
+</body>
+</html>
