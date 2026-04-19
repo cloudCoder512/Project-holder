@@ -102,12 +102,9 @@ body {
 .logo-circle {
     width: 40px;
     height: 40px;
-    background: #000;
     border-radius: 18px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    color: white;
     font-weight: 700;
     font-size: 1.2rem;
 }
@@ -306,8 +303,6 @@ body {
 .img-wrapper {
     border-radius: 2rem;
     overflow: hidden;
-    background: #eef2ff;
-    box-shadow: var(--shadow-md);
 }
 
 .skill-modern {
